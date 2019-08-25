@@ -23,7 +23,7 @@ end
 
 def reverse_array(array)
   array = array.reverse
-  array.reverse
+  array
 end
 
 #   a,b = b,a 
