@@ -16,7 +16,7 @@ values.sort do |left, right|
   end
 end
 
-def swap_elements(a, b)
+def swap_elements(array)
   a,b = b,a 
   return a,b 
 end
