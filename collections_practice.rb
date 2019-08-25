@@ -29,7 +29,7 @@ end
   def kesha_maker(array)
     array = [" "]
     array[3].each = "$"
-    
+    array
   end
     
 
