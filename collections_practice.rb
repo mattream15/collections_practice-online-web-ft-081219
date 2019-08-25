@@ -18,7 +18,7 @@ end
 
 def swap_elements(array)
   a,b = b,a 
-  return array 
+  return array[b,a] 
 end
   
 #   array = [ ]
