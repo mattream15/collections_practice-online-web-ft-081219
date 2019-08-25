@@ -28,8 +28,13 @@ end
 
   def kesha_maker(array)
     array = [" "]
-    array[3].each = "$"
-    array
+    i = 0 
+  while i < array.length
+   array[3].each = "$"
+  yield array[i]
+    i = i + 1
+  end
+  array
   end
     
 
