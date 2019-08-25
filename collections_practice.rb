@@ -17,9 +17,9 @@ values.sort do |left, right|
 end
 
 def swap_elements(array)
-  a,b = b,a 
-  return array
-end
+#   a,b = b,a 
+#   return array
+# # end
   
 #   array = [ ]
 # array[1], array[2] = array[2], array[1]
