@@ -17,7 +17,6 @@ values.sort do |left, right|
 end
 
 def swap_elements(array)
-    array = [ ]
 array[1], array[2] = array[2], array[1]
 array
 end
