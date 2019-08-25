@@ -26,9 +26,6 @@ def reverse_array(array)
   array
 end
 
-#   a,b = b,a 
-#   return array
-# # end
   
 
 
