@@ -29,7 +29,6 @@ end
 
   def kesha_maker(array)
     binding.pry
-    array = [" "]
     i = 0 
   while i < array.length
    array[3].each = "$"
