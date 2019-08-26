@@ -50,5 +50,6 @@ def add_s(array)
     string.push("s")
 else puts string
       end
+      array
   end
       
