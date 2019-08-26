@@ -47,6 +47,7 @@ end
 def add_s(array)
   array.each do |string|
     string.push("s")
+    binding.pry
     if string != string[1]
       else
         string
