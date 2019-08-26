@@ -28,8 +28,8 @@ def reverse_array(array)
 end
 
   def kesha_maker(array)
-    array = [" "]
     binding.pry
+    array = [" "]
     i = 0 
   while i < array.length
    array[3].each = "$"
