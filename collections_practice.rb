@@ -31,7 +31,7 @@ end
     binding.pry
     i = 0 
   while i < array.length
-   array[3].each = "$"
+   array[2].each = "$"
   yield array[i]
     i = i + 1
   end
