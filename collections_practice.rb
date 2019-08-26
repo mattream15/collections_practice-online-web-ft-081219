@@ -45,7 +45,7 @@ end
     end
 
 def add_s(array)
-  array.except[1] each do |string|
+  array.except[1].each do |string|
     string.push("s")
       end
   end
