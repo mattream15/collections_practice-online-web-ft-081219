@@ -51,6 +51,6 @@ def add_s(array)
       false
       else
         string
-      #end
-  #end
+      end
+  end
       
