@@ -29,11 +29,7 @@ end
 
   def kesha_maker(array)
     binding.pry
-    i = 0 
-  while i < array.length
    array[2].each = "$"
-  yield array[i]
-    i = i + 1
   end
   array
   end
