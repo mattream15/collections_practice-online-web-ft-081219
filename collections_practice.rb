@@ -39,6 +39,9 @@ end
       string[0] == "a"
       end
     end
+    
+    def sum_array(array)
+      
 
 
 
