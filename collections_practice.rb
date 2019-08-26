@@ -37,6 +37,8 @@ end
   array
   end
     
+    def find_a(array)
+      array.find
 
 
 
