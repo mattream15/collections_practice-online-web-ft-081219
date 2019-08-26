@@ -46,7 +46,6 @@ end
 
 def add_s(array)
   array.except[1].each do |string|
-    binding.pry
     string.push("s")
       end
   end
