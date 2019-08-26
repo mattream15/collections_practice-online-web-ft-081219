@@ -47,9 +47,7 @@ end
 def add_s(array)
   array.each do |string|
      string << "s"
-    unless string = string[1]
-else
-  puts string
+     string[1].delete
       end
     end
       array
