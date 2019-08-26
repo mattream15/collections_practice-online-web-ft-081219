@@ -35,7 +35,7 @@ end
   end
     
     def find_a(array)
-      array.select do |string, string_index|
+      array.select do |string|
         string("a", ][0])
       end
       array
