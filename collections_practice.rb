@@ -36,7 +36,7 @@ end
     
     def find_a(array)
       array.select do |string|
-        string("a", ][0])
+        {|string| "a", ][0]}
       end
       array
     end
