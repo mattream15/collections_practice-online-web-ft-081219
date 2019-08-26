@@ -52,4 +52,5 @@ else puts string
       end
       array
   end
+end
       
