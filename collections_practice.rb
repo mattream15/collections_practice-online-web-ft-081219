@@ -46,11 +46,7 @@ end
 
 def add_s(array)
   array.each do |string|
-    if string == string[1]
-      false
-       string.push("s")
-      else
-        string
+    string.push("s")
       end
   end
       
