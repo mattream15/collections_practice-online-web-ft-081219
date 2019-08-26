@@ -49,5 +49,6 @@ def add_s(array)
      string << "s"
    end
      array[1].delete!("s")
+     array
 end
       
