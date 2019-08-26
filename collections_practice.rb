@@ -29,7 +29,8 @@ end
 
   def kesha_maker(array)
     binding.pry
-   array[2].each = "$"
+   array.each do |"$"|
+    {"$"}
   end
   array
   end
