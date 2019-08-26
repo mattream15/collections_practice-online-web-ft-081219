@@ -48,6 +48,6 @@ def add_s(array)
   array.each do |string|
      string << "s"
    end
-     string[1].delete!("s")
+     array[1].delete!("s")
 end
       
