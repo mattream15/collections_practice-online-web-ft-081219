@@ -40,6 +40,9 @@ end
     def find_a(array)
       array.select do |string, string_index|
         string("a", ][0])
+      end
+      array
+    end
 
 
 
