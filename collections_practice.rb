@@ -31,7 +31,7 @@ end
    array.each do |string|
      bindind.pry
      string = "$"
-    {string}[2]
+    #{string}[2]
   end
   array
   end
